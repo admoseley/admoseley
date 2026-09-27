@@ -1,10 +1,10 @@
 <div align="center">
 
-# Adrian D. Moseley
-
-**Staff Systems Engineer — Cloud & Endpoint Platform Engineering**
-
-Azure · Windows 365 & Intune · Citrix DaaS · PowerShell automation
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/hero.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/hero-light.svg">
+  <img alt="Adrian D. Moseley — Staff Systems Engineer, Cloud and Endpoint Platform Engineering" src="https://trophy.clouddev.adrianmoseley.com/hero.svg" width="100%">
+</picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/admoseley/)
 [![Website](https://img.shields.io/badge/adrianmoseley.com-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](http://www.adrianmoseley.com)
@@ -47,6 +47,16 @@ worked example: a third-party service my profile depended on shut down, so the
 replacement was designed, built and deployed to Azure — Terraform, CI with secret
 scanning, a scheduled render pipeline and a live custom domain — in a single working
 session, at $0/month.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/architecture.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/architecture-light.svg">
+  <img alt="Architecture: GitHub Actions renders SVGs and deploys them to an Azure Static Web App, served to this profile through GitHub's camo proxy" src="https://trophy.clouddev.adrianmoseley.com/architecture.svg">
+</picture>
+
+</div>
 
 [![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)](#)
 [![GitHub Copilot](https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](#)
@@ -94,7 +104,11 @@ session, at $0/month.
 
 <div align="center">
 
-![GitHub trophies](https://trophy.clouddev.adrianmoseley.com/trophy.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/trophy.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/trophy-light.svg">
+  <img alt="GitHub trophies" src="https://trophy.clouddev.adrianmoseley.com/trophy.svg">
+</picture>
 
 </div>
 
@@ -102,12 +116,34 @@ session, at $0/month.
 
 <div align="center">
 
-![GitHub stats](https://trophy.clouddev.adrianmoseley.com/stats.svg)
-![Top languages](https://trophy.clouddev.adrianmoseley.com/top-langs.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/stats.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/stats-light.svg">
+  <img alt="GitHub stats" src="https://trophy.clouddev.adrianmoseley.com/stats.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/top-langs.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/top-langs-light.svg">
+  <img alt="Top languages" src="https://trophy.clouddev.adrianmoseley.com/top-langs.svg">
+</picture>
 
-![Contribution streak](https://trophy.clouddev.adrianmoseley.com/streak.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/streak.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/streak-light.svg">
+  <img alt="Contribution streak" src="https://trophy.clouddev.adrianmoseley.com/streak.svg">
+</picture>
 
-![Top contributed repositories](https://trophy.clouddev.adrianmoseley.com/top-repos.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/top-repos.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/top-repos-light.svg">
+  <img alt="Top contributed repositories" src="https://trophy.clouddev.adrianmoseley.com/top-repos.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://trophy.clouddev.adrianmoseley.com/activity.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://trophy.clouddev.adrianmoseley.com/activity-light.svg">
+  <img alt="Contribution activity over the last twelve months" src="https://trophy.clouddev.adrianmoseley.com/activity.svg">
+</picture>
 
 </div>
 
