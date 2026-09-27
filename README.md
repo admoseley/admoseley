@@ -76,15 +76,16 @@ replacing third-party services I no longer want to depend on.
 ![GitHub stats](https://trophy.clouddev.adrianmoseley.com/stats.svg)
 ![Top languages](https://trophy.clouddev.adrianmoseley.com/top-langs.svg)
 
-![Contribution streak](https://github-readme-streak-stats.herokuapp.com/?user=admoseley&theme=dark&hide_border=false)
+![Contribution streak](https://trophy.clouddev.adrianmoseley.com/streak.svg)
 
 ![Top contributed repositories](https://trophy.clouddev.adrianmoseley.com/top-repos.svg)
 
 </div>
 
-> Most of my commits land in private repositories, so these cards are rendered
-> under my own token to count that work. Private repos are ranked but never
-> named.
+> Every card here is rendered from my own platform rather than a third-party
+> service. Most of my commits land in private repositories, so they are
+> rendered under my own token to count that work — private repos are ranked but
+> never named.
 
 ## 🔭 Featured Projects
 
