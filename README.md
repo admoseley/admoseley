@@ -7,6 +7,7 @@
 Automation-first engineering — PowerShell and Python scripting, Azure infrastructure
 as code, and small production web platforms built end to end.
 
+[![Website](https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white)](https://www.linkedin.com/in/admoseley/))
 [![Website](https://img.shields.io/badge/adrianmoseley.com-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white)](http://www.adrianmoseley.com)
 [![Location](https://img.shields.io/badge/United_States-2F80ED?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
