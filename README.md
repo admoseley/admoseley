@@ -16,18 +16,37 @@
 
 ## 💫 About
 
-Staff Systems Engineer with 20+ years designing and operating modern endpoint and
-virtual desktop platforms at enterprise scale. I lead Azure cloud engineering for a
-**10,800+ desktop Citrix DaaS estate** — Cloud PC build-out, Entra ID group-based
-targeting, golden-image lifecycle and patch governance — and I've delivered **two
-production migrations off VMware into the cloud**.
+I'm a Staff Systems Engineer at The Home Depot with 20+ years in systems engineering.
+I led the move from VMware Horizon to Citrix DaaS for **10,800+ virtual desktops**,
+moving brokering and management to the cloud. Today I lead Azure engineering for
+that platform and our **Windows 365 production pilot**. The pilot serves **50 users
+across all regions combined**, with expansion to **1,000+ users planned for Q1 2027**.
 
-My default tool is automation: PowerShell modules and REST API integration against
-Horizon, Citrix DaaS and Windows 365.
+Hardware shortages and rising on-premises costs prompted us to move desktop workloads
+to the cloud. We started with persistent desktops because employees need their own
+applications and settings. Intune provisions their Cloud PCs, and Citrix DaaS manages
+access. Our call centers continue to use standardized Citrix PVS desktops, with
+FSLogix preserving selected settings between sessions.
 
-This account is my personal work. Most of what I build day to day lives in private
-repos — client sites, internal tooling and the infrastructure behind a handful of
-small businesses — so what's public here is the part I can show.
+PowerShell is the tool I reach for when a fix has to work across a fleet. During
+the July 2024 CrowdStrike outage, I wrote and deployed a script that restored
+**97%+ of affected systems within hours**. I turn recurring fixes into modules and
+runbooks that other engineers can use.
+
+The projects on this profile are my **independent and volunteer work**.
+
+## 🔭 Featured Projects
+
+| Project | What it is |
+|---|---|
+| **Independent Azure consolidation** | Consolidated about seven live web properties from four paid platforms onto one Azure subscription using Terraform, Azure Static Web Apps, Front Door with WAF, Azure Communication Services and DNS cutovers. |
+| **Black Mamas Village delivery app** *(volunteer work)* | Built a delivery app for the nonprofit and migrated it to Azure Functions and Cosmos DB. Terraform provisions the infrastructure, and GitHub Actions deploys to Azure using OpenID Connect (OIDC). |
+| **[profile-cards-azure](https://github.com/admoseley/profile-cards-azure)** | The platform rendering this profile’s cards. Prerenders five SVGs every six hours in GitHub Actions and serves them from Azure Static Web Apps — Terraform, CI with secret scanning, $0/month, and no traffic from anyone else can load it. |
+| **[Terraform_ADM](https://github.com/admoseley/Terraform_ADM)** | Multi-region Azure web platform in Terraform: Debian + nginx across Central US and East US behind Traffic Manager, with scheduled power on/off for cost control. |
+| **[realestate](https://github.com/admoseley/realestate)** | Real-estate investment analysis platform on Azure — FastAPI + React, Container Apps, Azure SQL, background jobs and branded PDF reporting. |
+| **[OlindaJohnsonSpeaks](https://github.com/admoseley/OlindaJohnsonSpeaks)** | Marketing site for a CEU speaker and trainer working with nursing organizations. |
+| **[donteisha-samuel-portfolio](https://github.com/admoseley/donteisha-samuel-portfolio)** | Portfolio site for an instructional and learner-experience designer. |
+| **[NewUbuntuSetup](https://github.com/admoseley/NewUbuntuSetup)** | Bash provisioning script for a fresh Ubuntu workstation. |
 
 ## 🎓 Certifications
 
@@ -38,15 +57,13 @@ small businesses — so what's public here is the part I can show.
 
 ## 🤖 AI-augmented engineering
 
-I run an AI-assisted engineering workflow daily — Claude Code, GitHub Copilot, Gemini
-and ChatGPT — and I'm **Google Generative AI Leader** certified.
+I use Claude Code and Codex to build and maintain independent projects. I review
+the changes and use GitHub Actions to run tests and scan for secrets before merging.
 
-The point isn't the tooling, it's what gets shipped with it.
-[`profile-cards-azure`](https://github.com/admoseley/profile-cards-azure) below is a
-worked example: a third-party service my profile depended on shut down, so the
-replacement was designed, built and deployed to Azure — Terraform, CI with secret
-scanning, a scheduled render pipeline and a live custom domain — in a single working
-session, at $0/month.
+When the third-party service behind my GitHub profile cards shut down, I built
+[`profile-cards-azure`](https://github.com/admoseley/profile-cards-azure).
+Terraform provisions the Azure hosting, and a scheduled GitHub Actions workflow
+renders the cards you see on this page.
 
 <div align="center">
 
@@ -61,7 +78,7 @@ session, at $0/month.
 [![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)](#)
 [![GitHub Copilot](https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](#)
 [![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](#)
-[![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)](#)
+[![Codex](https://img.shields.io/badge/OpenAI_Codex-202123?style=for-the-badge)](#)
 
 ## 💻 Tech Stack
 
@@ -86,12 +103,12 @@ session, at $0/month.
 **Languages & scripting**
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**Coursework:** Python and Go
 
 **Web**
 
@@ -150,17 +167,6 @@ session, at $0/month.
 > Every card here renders from my own platform on Azure rather than a third-party
 > service. Most of my commits land in private repositories, so they're rendered under
 > my own token to count that work — private repos are ranked but never named.
-
-## 🔭 Featured Projects
-
-| Project | What it is |
-|---|---|
-| **[profile-cards-azure](https://github.com/admoseley/profile-cards-azure)** | The platform rendering the cards above. Prerenders five SVGs every six hours in GitHub Actions and serves them from Azure Static Web Apps — Terraform, CI with secret scanning, $0/month, and no traffic from anyone else can load it. |
-| **[Terraform_ADM](https://github.com/admoseley/Terraform_ADM)** | Multi-region Azure web platform in Terraform: Debian + nginx across Central US and East US behind Traffic Manager, with scheduled power on/off for cost control. |
-| **[realestate](https://github.com/admoseley/realestate)** | Real-estate investment analysis platform on Azure — FastAPI + React, Container Apps, Azure SQL, background jobs and branded PDF reporting. |
-| **[OlindaJohnsonSpeaks](https://github.com/admoseley/OlindaJohnsonSpeaks)** | Marketing site for a CEU speaker and trainer working with nursing organizations. |
-| **[donteisha-samuel-portfolio](https://github.com/admoseley/donteisha-samuel-portfolio)** | Portfolio site for an instructional and learner-experience designer. |
-| **[NewUbuntuSetup](https://github.com/admoseley/NewUbuntuSetup)** | Bash provisioning script for a fresh Ubuntu workstation. |
 
 ---
 
